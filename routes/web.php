@@ -11,4 +11,6 @@ Route::get('/contacto', function () {
 });
 
 Route::post('/contacto', [App\Http\Controllers\ContactoController::class, 'procesar']);
+
+
 ?>
